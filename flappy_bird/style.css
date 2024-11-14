@@ -54,3 +54,19 @@ canvas {
     padding: 5px;
     font-size: 1em;
 }
+/* style.css */
+
+#replayButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#replayButton:hover {
+    background-color: #218838;
+}
