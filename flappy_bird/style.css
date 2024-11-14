@@ -35,3 +35,22 @@ canvas {
     max-width: 90vw;
     height: auto;
 }
+
+#score {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.settings {
+    margin: 15px 0;
+}
+
+.settings label {
+    color: #fff;
+}
+
+.settings select {
+    padding: 5px;
+    font-size: 1em;
+}

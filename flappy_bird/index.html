@@ -1,56 +1,26 @@
-/* style.css */
-
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #70c5ce;
-    font-family: Arial, sans-serif;
-    color: #333;
-}
-
-.game-container {
-    text-align: center;
-    max-width: 100%;
-}
-
-h1 {
-    font-size: 2em;
-    color: #fff;
-    margin: 0;
-    padding-top: 20px;
-}
-
-p {
-    color: #fff;
-    margin: 0;
-    padding: 10px;
-}
-
-canvas {
-    border: 2px solid #000;
-    margin-top: 10px;
-    max-width: 90vw;
-    height: auto;
-}
-
-#score {
-    font-size: 1.5em;
-    color: #fff;
-    margin: 10px 0;
-}
-
-.settings {
-    margin: 15px 0;
-}
-
-.settings label {
-    color: #fff;
-}
-
-.settings select {
-    padding: 5px;
-    font-size: 1em;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Flappy Bird</h1>
+        <p>Tap anywhere on the screen to make the bird fly!</p>
+        <div id="score">Score: 0</div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="settings">
+            <label for="difficulty">Difficulty:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
